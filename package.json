@@ -1,0 +1,30 @@
+{
+  "name": "pinata-pin-utils",
+  "version": "1.0.0",
+  "description": "Utilities based on Pinata SDK to interact with Pinata",
+  "main": "pinata.js",
+  "scripts": {
+    "pinata": "node pinata.js",
+    "help": "node pinata.js --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VittorioBurani/pinata-pin-utils.git"
+  },
+  "keywords": [
+    "pinata",
+    "ipfs",
+    "files",
+    "folders"
+  ],
+  "author": "vitbur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VittorioBurani/pinata-pin-utils/issues"
+  },
+  "homepage": "https://github.com/VittorioBurani/pinata-pin-utils#readme",
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "dotenv": "^16.4.5"
+  }
+}
